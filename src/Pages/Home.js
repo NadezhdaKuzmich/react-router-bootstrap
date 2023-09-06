@@ -1,3 +1,4 @@
+import React from 'react';
 import CarouselBox from "../Components/CarouselBox";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import team1 from "../assets/team1.jpg";
@@ -9,7 +10,7 @@ function Home() {
     <main>
       <CarouselBox />
       <Container className="pb-3">
-        <h2 className="text-center" style={{ padding: "30px 0"}}>Our team</h2>
+        <h2 className="text-center" style={{ padding: "40px 0"}}>Our team</h2>
         <Row xs={1} md={3} className="g-4 mb-4">
           <Col>
             <Card>

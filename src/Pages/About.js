@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import design from "../assets/design.png";
 import programming from "../assets/programming.jpeg";

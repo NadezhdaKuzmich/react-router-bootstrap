@@ -1,3 +1,4 @@
+import React from 'react';
 import { Carousel } from "react-bootstrap";
 import mountains from "../assets/mountains.jpg";
 import forest from "../assets/forest.jpg";

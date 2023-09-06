@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Col, Image, Card, ListGroup } from "react-bootstrap";
 import jsimg from "../assets/jsimg.jpg";
 

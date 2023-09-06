@@ -1,8 +1,9 @@
+import React from 'react';
 import { Container, NavLink } from "react-bootstrap";
 
 export default function Footer() {
   return (
-    <footer className="footer-bg mt-4 p-3">
+    <footer className="footer-bg mt-4 p-4">
       <Container
       className="d-flex"
         style={{ justifyContent: "space-between", alignItems: "center" }}
