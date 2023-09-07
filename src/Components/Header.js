@@ -7,7 +7,7 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const Header = () => {
@@ -38,19 +38,19 @@ const Header = () => {
               style={{ justifyContent: "space-between", alignItems: "center" }}
             >
               <Nav className="mr-auto">
-                <Nav.Link as={Link} to="/">
+                <Nav.Link as={NavLink} to="/">
                   {" "}
                   Home{" "}
                 </Nav.Link>
-                <Nav.Link as={Link} to="/about">
+                <Nav.Link as={NavLink} to="/about">
                   {" "}
                   About us{" "}
                 </Nav.Link>
-                <Nav.Link as={Link} to="/contacts">
+                <Nav.Link as={NavLink} to="/contacts">
                   {" "}
                   Contacts{" "}
                 </Nav.Link>
-                <Nav.Link as={Link} to="/blog">
+                <Nav.Link as={NavLink} to="/blog">
                   {" "}
                   Blog{" "}
                 </Nav.Link>
